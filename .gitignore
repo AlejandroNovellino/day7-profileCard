@@ -8,7 +8,7 @@ public/bundle/*
 node_modules/
 
 # ignore thge gif
-.gif
+*.gif
 
 # ignore the .json files
-.json
+*.json
