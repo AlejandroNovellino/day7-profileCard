@@ -6,3 +6,9 @@
 dist/
 public/bundle/*
 node_modules/
+
+# ignore thge gif
+.gif
+
+# ignore the .json files
+.json
