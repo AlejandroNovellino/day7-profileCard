@@ -46,15 +46,13 @@ function render(variables = {}) {
 
   // setting city and country
   let city = variables.city;
-  if (city == null) city = "";
+  if (city == null) city = "Miami";
 
   let country;
   if (variables.country == null) {
-    country = "";
-  } else if (city != "") {
-    country = ", " + variables.country;
+    country = ", USA";
   } else {
-    country = variables.country;
+    country = ", " + variables.country;
   }
 
   // setting the "social media usernames position" (socialPos)
