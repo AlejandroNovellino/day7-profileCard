@@ -6,3 +6,6 @@
 dist/
 public/bundle/*
 node_modules/
+
+# ignore the packages downloaded
+package-lock.json
